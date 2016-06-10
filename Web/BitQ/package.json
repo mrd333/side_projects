@@ -1,0 +1,26 @@
+{
+  "name": "BitQ",
+  "version": "1.0.0",
+  "description": "Charts and statistics regarding BTC against GBP & USD",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "react": "~15.1.0",
+    "react-bootstrap": "^0.29.4",
+    "react-dom": "~15.1.0",
+    "react-router": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-loader": "~6.2.4",
+    "webpack-dev-server": "~1.14.1",
+    "webpack": "~1.13.1",
+    "html-webpack-plugin": "~2.19.0",
+    "babel-core": "~6.9.1",
+    "babel-preset-react": "~6.5.0"
+  }
+}
