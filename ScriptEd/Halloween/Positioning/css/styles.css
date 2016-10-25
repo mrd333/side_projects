@@ -1,0 +1,82 @@
+/* Global properties
+==================*/
+.clear {
+    overflow: auto;
+    zoom: 1;
+    }
+
+/* Navigation
+============*/
+
+/* Float navigation L/R */
+nav {
+    width: 80%;
+    margin: 0 auto;
+    }
+
+nav h1 {
+    float: left;
+    }
+
+nav ul {
+    float:right;
+    }
+
+/* Change display of <li> */
+nav li {
+    display: inline-block;
+    padding-right: 4px;
+    }
+
+/* Add a hover effect */
+nav li:hover {
+    opacity: .5;
+    }
+
+/* Main content
+=============*/
+
+#container {
+    background-color: orange;
+    padding: 20px;
+    }
+
+/* Declare general box properties */
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    /* margin-top: 10px; */
+    }
+
+/* Declare individual box properties */
+#one{
+   background-color: green;
+   float:left
+    }
+#two{
+   background-color: yellow;
+   float: right;
+    }
+#three{
+   background-color: blue;
+    float: right;
+    clear: right;
+    }
+#four{
+    background-color: pink;
+    float: right;
+    clear: right;
+    }
+
+/* Footer
+========*/
+
+/* Clearfix code */
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
