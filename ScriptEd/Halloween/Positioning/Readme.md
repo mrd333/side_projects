@@ -1,3 +1,7 @@
+#### Teaching notes at 
+
+https://docs.google.com/document/d/1jy8j2Pc5MjThAQT8FkIAH5v1BVbAoEQas7kDV4JyfS8/edit?usp=sharing
+
 Float Positioning
 
 
